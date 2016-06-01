@@ -1,0 +1,150 @@
+---
+_id: US30303M1027
+name: FACEBOOK INC.
+wkn: A1JWVX
+isin: US30303M1027
+country: US
+type: 1
+created_at: 2016-05-02 21:26:00.000000000 Z
+updated_at: 2016-05-02 21:26:00.000000000 Z
+tradingcentral:
+  pivot: 103.9
+  supports:
+  - 103.9
+  - 96.7
+  - 89.3
+  resistors:
+  - 117.6
+  - 125
+  - 131
+  short_term:
+    delta: 0
+    opinion: 2
+  medium_term:
+    delta: 0
+    opinion: 1
+  meta:
+    age: 11
+    currency: USD
+    source: consorsbank
+    feed: tradingcentral
+intraday:
+  price: 97.653
+  high: 97.91
+  low: 96.021
+  performance: 0.46
+  volume: 12387
+  meta:
+    age: 13
+    currency: EUR
+    exchange: GAT
+    source: consorsbank
+    feed: intraday
+factset:
+  upgrades: 0
+  downgrades: 0
+  consensus: 4
+  target_price: 135
+  count: 38
+  expected_performance: 22.23
+  recent:
+    buy: 33
+    overweight: 3
+    hold: 2
+    underweight: 0
+    sell: 0
+  last_quarter:
+    buy: 41
+    overweight: 4
+    hold: 4
+    underweight: 0
+    sell: 0
+  meta:
+    age: 14
+    currency: USD
+    source: consorsbank
+    feed: factset
+performance:
+  1w: 0.14
+  4w: -2.45
+  52w: 25.51
+  cy: -0.75
+  3y: 377.76
+  high:
+    price: 107.86
+    age: 90
+  low:
+    price: 61.86
+    age: 252
+  meta:
+    age: -1
+    currency: EUR
+    source: consorsbank
+    feed: performance
+history:
+- first: 97.049
+  last: 97.803
+  high: 97.91
+  low: 96.021
+  volume: 12387
+  age: 13
+- first: 98.699
+  last: 97.207
+  high: 98.773
+  low: 96.794
+  volume: 7128
+  age: 16
+events:
+- type: AGM
+  occurs_in: 15
+- type: RESULTS
+  occurs_in: 10
+technicalanalysis:
+  macd: 1
+  momentum:
+    20d: 1
+    50d: 1
+    250d: 1
+    trend: 3
+  moving_average:
+    5d: 1
+    20d: 1
+    200d: 1
+    trend: 3
+  rsi:
+    5d: 1
+    20d: 0
+    250d: 0
+    trend: 1
+  meta:
+    age: 0
+    source: consorsbank
+    feed: technicalanalysis
+thescreener:
+  per: 27.04
+  risk: 0
+  interest: 3
+  bad_news: 147
+  bear_market: -2
+  beta: 134
+  correlation: 0.7
+  capitalization: 319.61
+  dividend: 0
+  earnings:
+    revision: -14
+    trend: -1
+    growth: 31.89
+  trend: 1
+  outperformance: -1.75
+  reverse_price: 112.02
+  rating: 1
+  analysts: 46
+  volatility:
+    1m: 20.26
+    12m: 32.56
+  meta:
+    age: 13
+    price: 112.29
+    currency: USD
+    source: consorsbank
+    feed: thescreener
