@@ -117,7 +117,7 @@ technicalanalysis:
     250d: 0
     trend: 1
   meta:
-    age: 0
+    age: -1
     source: consorsbank
     feed: technicalanalysis
 thescreener:
