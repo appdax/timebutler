@@ -1,5 +1,7 @@
 .bundle
 .gitignore
+.gitmodules
+config/.git
 .dockerignore
 .travis.yml
 .rubocop.yml
