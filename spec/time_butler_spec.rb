@@ -10,20 +10,6 @@ RSpec.describe TimeButler do
     stocks.insert_one fb
   end
 
-  describe '#feed_names_of_type' do
-    subject { described_class.instance.feed_names_of_type type }
-
-    context 'when type is Hash' do
-      let(:type) { Hash }
-      it { is_expected.to eq(%w(tradingcentral intraday factset performance technicalanalysis thescreener)) }
-    end
-
-    context 'when type is Array' do
-      let(:type) { Array }
-      it { is_expected.to eq(%w(history events)) }
-    end
-  end
-
   describe '#run' do
     before { Timecop.freeze(time) }
 
