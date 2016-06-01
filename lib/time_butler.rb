@@ -75,6 +75,8 @@ class TimeButler
     ages  = {}
 
     feeds.each { |name| ages["#{name}.meta.age"] = days }
+    ages['performance.high.age'] = days
+    ages['performance.low.age']  = days
 
     outdated_stocks.update_many('$inc': ages)
   end
