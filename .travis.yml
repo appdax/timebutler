@@ -1,0 +1,21 @@
+install: true
+
+sudo: false
+
+services:
+  - docker
+
+before_script:
+  - git checkout $TRAVIS_BRANCH
+
+script:
+  - docker build -t appdax/timebutler:test -f Dockerfile.test .
+  - docker run -e CODECLIMATE_REPO_TOKEN=$CODECLIMATE_REPO_TOKEN -t appdax/timebutler:test
+  - docker rmi -f appdax/timebutler:test
+  - docker build -t appdax/timebutler:edge -f Dockerfile .
+  - docker ps -a
+  - docker images --filter "dangling=false"
+
+after_success:
+  - docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
+  - docker push appdax/timebutler

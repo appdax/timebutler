@@ -1,0 +1,20 @@
+engines:
+  rubocop:
+    enabled: true
+  duplication:
+    enabled: true
+    checks:
+      Similar code:
+        enabled: false
+    config:
+      languages:
+      - ruby
+      - javascript
+
+ratings:
+  paths:
+  - lib/**
+
+exclude_paths:
+- spec/**/*
+- vendor/**/*

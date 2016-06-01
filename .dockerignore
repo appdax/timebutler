@@ -1,0 +1,15 @@
+.bundle
+.gitignore
+.dockerignore
+.travis.yml
+.rubocop.yml
+.codeclimate.yml
+.DS_Store
+docker
+coverage
+*.md
+!LICENSE.md
+Dockerfile*
+vendor
+tmp
+log
