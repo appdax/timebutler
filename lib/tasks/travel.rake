@@ -19,7 +19,7 @@ private
 
 # Increase all age fields by one day.
 #
-# @param [ Int ] inc: Amount of days.
+# @param [ Int ] days Amount of days.
 #                     Defaults to: 1
 #
 # @return [ Void ]

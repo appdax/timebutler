@@ -23,21 +23,21 @@ class TimeButler
 
   # Increase all age fields by one day.
   #
-  # @param [ Int ] inc: Amount of days.
+  # @param [ Int ] days Amount of days.
   #                     Defaults to: 1
   #
   # @return [ Void ]
-  def self.go_ahead(days: 1)
+  def self.go_ahead(days = 1)
     instance.run(days: days)
   end
 
   # Increase all age fields by one day.
   #
-  # @param [ Int ] inc: Amount of days.
+  # @param [ Int ] days Amount of days.
   #                     Defaults to: 1
   #
   # @return [ Void ]
-  def self.go_back(days: 1)
+  def self.go_back(days = 1)
     instance.run(days: -days)
   end
 
