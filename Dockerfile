@@ -1,4 +1,4 @@
-FROM alpine:3.3
+FROM alpine:3.4
 MAINTAINER Sebastian Katzer "katzer.sebastian@googlemail.com"
 
 ENV BUILD_PACKAGES ruby-dev gcc make libc-dev tzdata
