@@ -3,7 +3,7 @@ GEM
   specs:
     bson (4.1.1)
     chronic (0.10.2)
-    codeclimate-test-reporter (0.5.0)
+    codeclimate-test-reporter (0.5.1)
       simplecov (>= 0.7.1, < 1.0.0)
     coderay (1.1.1)
     diff-lcs (1.2.5)
