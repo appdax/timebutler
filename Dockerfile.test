@@ -1,5 +1,5 @@
 FROM mvertes/alpine-mongo
-MAINTAINER Sebastian Katzer "katzer@appplant.de"
+MAINTAINER Sebastian Katzer "katzer.sebastian@googlemail.com"
 
 ENV BUILD_PACKAGES ruby-dev gcc make libc-dev
 ENV RUBY_PACKAGES ruby git ruby-bundler ruby-io-console

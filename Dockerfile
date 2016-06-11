@@ -1,5 +1,5 @@
 FROM alpine:3.3
-MAINTAINER Sebastian Katzer "katzer@appplant.de"
+MAINTAINER Sebastian Katzer "katzer.sebastian@googlemail.com"
 
 ENV BUILD_PACKAGES ruby-dev gcc make libc-dev tzdata
 ENV RUBY_PACKAGES ruby tar ruby-bundler ruby-io-console
