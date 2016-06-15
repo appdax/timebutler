@@ -7,7 +7,7 @@ CodeClimate::TestReporter.start
 
 SimpleCov.start do
   add_filter '/spec'
-  add_filter '/lib/extension/exception_notifier.rb'
+  add_filter '/lib/extensions/exception_notifier.rb'
   formatter SimpleCov::Formatter::MultiFormatter.new(
     [
       SimpleCov::Formatter::HTMLFormatter,
