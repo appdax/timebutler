@@ -4,6 +4,10 @@
 module ExceptionNotifier
   # Add alias method chain around the display_error_message method
   # when the module got included into Rake.
+  #
+  # @param [ Class ] klass Rake::Application
+  #
+  # @return [ Void ]
   def self.included(klass)
     klass.class_eval do
       alias_method :orig_display_error_message, :display_error_message
