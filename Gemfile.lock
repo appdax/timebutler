@@ -3,7 +3,7 @@ GEM
   specs:
     bson (4.1.1)
     chronic (0.10.2)
-    codeclimate-test-reporter (0.5.1)
+    codeclimate-test-reporter (0.5.2)
       simplecov (>= 0.7.1, < 1.0.0)
     coderay (1.1.1)
     diff-lcs (1.2.5)
@@ -20,7 +20,7 @@ GEM
       slop (~> 3.4)
     pry-nav (0.2.4)
       pry (>= 0.9.10, < 0.11.0)
-    rake (11.1.2)
+    rake (11.2.2)
     rspec (3.4.0)
       rspec-core (~> 3.4.0)
       rspec-expectations (~> 3.4.0)
@@ -41,7 +41,7 @@ GEM
     simplecov-html (0.10.0)
     slop (3.6.0)
     timecop (0.8.1)
-    whenever (0.9.4)
+    whenever (0.9.7)
       chronic (>= 0.6.3)
 
 PLATFORMS
