@@ -2,6 +2,7 @@
 [![Code Climate](https://codeclimate.com/github/appdax/timebutler/badges/gpa.svg)](https://codeclimate.com/github/appdax/timebutler)
 [![Test Coverage](https://codeclimate.com/github/appdax/timebutler/badges/coverage.svg)](https://codeclimate.com/github/appdax/timebutler/coverage)
 [![Dependency Status](https://gemnasium.com/badges/github.com/appdax/timebutler.svg)](https://gemnasium.com/github.com/appdax/timebutler)
+[![Docker Container](https://imagelayers.io/badge/appdax/timebutler:edge.svg)](https://imagelayers.io/?images=appdax/timebutler:edge)
 [![Inline docs](http://inch-ci.org/github/appdax/timebutler.svg?branch=master)](http://inch-ci.org/github/appdax/timebutler)
 
 # timebutler

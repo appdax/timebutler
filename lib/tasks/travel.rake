@@ -1,5 +1,3 @@
-require 'benchmark'
-require 'time_butler'
 
 namespace :travel do
   desc 'Increase age fields'
@@ -26,6 +24,9 @@ private
 def go_ahead(days = 1)
   puts "Traveling ahead #{days} day#{'s' if days > 1}"
 
+  require 'benchmark'
+  require 'time_butler'
+
   time = Benchmark.realtime { TimeButler.go_ahead days }
 
   puts "Total time elapsed #{time.round(2)} seconds"
@@ -39,6 +40,9 @@ end
 # @return [ Void ]
 def go_back(days = 1)
   puts "Traveling back #{days} day#{'s' if days > 1}"
+
+  require 'benchmark'
+  require 'time_butler'
 
   time = Benchmark.realtime { TimeButler.go_back days }
 

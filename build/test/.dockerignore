@@ -9,9 +9,11 @@ config/.git
 .DS_Store
 docker
 coverage
-*.md
-!LICENSE.md
-Dockerfile*
+build
 vendor
 tmp
 log
+lib/tasks/build.rake
+*.md
+!LICENSE.md
+Dockerfile*
