@@ -9,6 +9,7 @@ begin
 
   task default: ['build:test'] do
     system 'docker run -it appdax/timebutler:test'
+    exit($CHILD_STATUS.exitstatus) unless $CHILD_STATUS.success?
   end
 rescue LoadError # rubocop:disable Lint/HandleExceptions
 end

@@ -19,5 +19,6 @@ namespace :build do
     FileUtils.ln_s "build/#{tag}/.dockerignore", '.dockerignore'
     system "docker build -t #{image} -f build/#{tag}/Dockerfile ."
     FileUtils.rm '.dockerignore'
+    exit($CHILD_STATUS.exitstatus) unless $CHILD_STATUS.success?
   end
 end
