@@ -4,6 +4,9 @@ install:
 
 sudo: false
 
+matrix:
+  fast_finish: true
+
 services:
   - docker
 

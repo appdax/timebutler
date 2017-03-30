@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:3.5
 MAINTAINER Sebastian Katzer "katzer.sebastian@googlemail.com"
 
 ENV APP_HOME /usr/app/

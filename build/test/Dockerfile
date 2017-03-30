@@ -21,4 +21,4 @@ COPY . $APP_HOME
 
 ENV MONGO_URI=mongodb://localhost:27017/appdax
 
-CMD ["bundle", "exec", "rspec", "spec", "--fail-fast"]
+CMD ["bundle", "exec", "rspec spec --fail-fast --failure-exit-code 1 && codeclimate-test-reporter"]
